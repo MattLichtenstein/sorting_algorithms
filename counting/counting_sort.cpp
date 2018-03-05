@@ -132,6 +132,6 @@ void counting_sort(int a[], int len, int max)
 			hold++;
 		}
 	}
-	delete counting;
+	delete [] counting;
 }
 
